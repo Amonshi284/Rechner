@@ -57,6 +57,7 @@
             this.einsButton.TabIndex = 0;
             this.einsButton.Text = "1";
             this.einsButton.UseVisualStyleBackColor = true;
+            this.einsButton.Click += new System.EventHandler(this.einsButtonClick);
             // 
             // zweiButton
             // 
@@ -66,6 +67,7 @@
             this.zweiButton.TabIndex = 1;
             this.zweiButton.Text = "2";
             this.zweiButton.UseVisualStyleBackColor = true;
+            this.zweiButton.Click += new System.EventHandler(this.zweiButtonClick);
             // 
             // dreiButton
             // 
@@ -75,6 +77,7 @@
             this.dreiButton.TabIndex = 2;
             this.dreiButton.Text = "3";
             this.dreiButton.UseVisualStyleBackColor = true;
+            this.dreiButton.Click += new System.EventHandler(this.dreiButtonClick);
             // 
             // vierButton
             // 
@@ -84,6 +87,7 @@
             this.vierButton.TabIndex = 3;
             this.vierButton.Text = "4";
             this.vierButton.UseVisualStyleBackColor = true;
+            this.vierButton.Click += new System.EventHandler(this.vierButtonClick);
             // 
             // fuenfButton
             // 
@@ -93,6 +97,7 @@
             this.fuenfButton.TabIndex = 4;
             this.fuenfButton.Text = "5";
             this.fuenfButton.UseVisualStyleBackColor = true;
+            this.fuenfButton.Click += new System.EventHandler(this.fuenfButtonClick);
             // 
             // sechsButton
             // 
@@ -102,6 +107,7 @@
             this.sechsButton.TabIndex = 5;
             this.sechsButton.Text = "6";
             this.sechsButton.UseVisualStyleBackColor = true;
+            this.sechsButton.Click += new System.EventHandler(this.sechsButtonClick);
             // 
             // siebenButton
             // 
