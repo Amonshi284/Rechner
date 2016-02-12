@@ -111,6 +111,7 @@
             this.siebenButton.TabIndex = 6;
             this.siebenButton.Text = "7";
             this.siebenButton.UseVisualStyleBackColor = true;
+            this.siebenButton.Click += new System.EventHandler(this.siebenButton_Click);
             // 
             // achtButton
             // 
@@ -120,6 +121,7 @@
             this.achtButton.TabIndex = 7;
             this.achtButton.Text = "8";
             this.achtButton.UseVisualStyleBackColor = true;
+            this.achtButton.Click += new System.EventHandler(this.achtButton_Click);
             // 
             // neunButton
             // 
@@ -129,6 +131,7 @@
             this.neunButton.TabIndex = 8;
             this.neunButton.Text = "9";
             this.neunButton.UseVisualStyleBackColor = true;
+            this.neunButton.Click += new System.EventHandler(this.neunButton_Click);
             // 
             // nullButton
             // 
@@ -157,6 +160,7 @@
             this.negativButton.TabIndex = 11;
             this.negativButton.Text = "(-)";
             this.negativButton.UseVisualStyleBackColor = true;
+            this.negativButton.Click += new System.EventHandler(this.negativButton_Click);
             // 
             // plusButton
             // 
@@ -205,15 +209,20 @@
             // 
             // teilEingabeTextbox
             // 
+            this.teilEingabeTextbox.BackColor = System.Drawing.Color.White;
+            this.teilEingabeTextbox.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.teilEingabeTextbox.Location = new System.Drawing.Point(42, 50);
             this.teilEingabeTextbox.Name = "teilEingabeTextbox";
+            this.teilEingabeTextbox.ReadOnly = true;
             this.teilEingabeTextbox.Size = new System.Drawing.Size(106, 20);
             this.teilEingabeTextbox.TabIndex = 17;
             // 
             // gesammteingabeTextbox
             // 
+            this.gesammteingabeTextbox.BackColor = System.Drawing.Color.White;
             this.gesammteingabeTextbox.Location = new System.Drawing.Point(42, 24);
             this.gesammteingabeTextbox.Name = "gesammteingabeTextbox";
+            this.gesammteingabeTextbox.ReadOnly = true;
             this.gesammteingabeTextbox.Size = new System.Drawing.Size(106, 20);
             this.gesammteingabeTextbox.TabIndex = 18;
             // 
