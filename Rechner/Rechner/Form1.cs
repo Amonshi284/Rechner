@@ -16,10 +16,5 @@ namespace Rechner
         {
             InitializeComponent();
         }
-
-        private void lol(object sender, EventArgs e)
-        {
-            label1.Text = "LOL";
-        }
     }
 }
