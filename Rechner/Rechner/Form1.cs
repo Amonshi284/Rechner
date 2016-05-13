@@ -103,9 +103,9 @@ namespace Rechner
         {
             if (teilEingabeTextbox.Text == "0")
             {
+                teilEingabeTextbox.Text += "-";
                 teilEingabeTextbox.Text = "";
             }
-            teilEingabeTextbox.Text += "-";
         }
 
     }
