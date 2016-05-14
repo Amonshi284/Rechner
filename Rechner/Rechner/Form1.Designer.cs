@@ -47,11 +47,12 @@
             this.enterButton = new System.Windows.Forms.Button();
             this.teilEingabeTextbox = new System.Windows.Forms.TextBox();
             this.gesammteingabeTextbox = new System.Windows.Forms.TextBox();
+            this.ButtonZurueck = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // einsButton
             // 
-            this.einsButton.Location = new System.Drawing.Point(42, 85);
+            this.einsButton.Location = new System.Drawing.Point(12, 73);
             this.einsButton.Name = "einsButton";
             this.einsButton.Size = new System.Drawing.Size(22, 23);
             this.einsButton.TabIndex = 0;
@@ -61,7 +62,7 @@
             // 
             // zweiButton
             // 
-            this.zweiButton.Location = new System.Drawing.Point(70, 85);
+            this.zweiButton.Location = new System.Drawing.Point(40, 73);
             this.zweiButton.Name = "zweiButton";
             this.zweiButton.Size = new System.Drawing.Size(22, 23);
             this.zweiButton.TabIndex = 1;
@@ -71,7 +72,7 @@
             // 
             // dreiButton
             // 
-            this.dreiButton.Location = new System.Drawing.Point(98, 85);
+            this.dreiButton.Location = new System.Drawing.Point(68, 73);
             this.dreiButton.Name = "dreiButton";
             this.dreiButton.Size = new System.Drawing.Size(22, 23);
             this.dreiButton.TabIndex = 2;
@@ -81,7 +82,7 @@
             // 
             // vierButton
             // 
-            this.vierButton.Location = new System.Drawing.Point(42, 114);
+            this.vierButton.Location = new System.Drawing.Point(12, 102);
             this.vierButton.Name = "vierButton";
             this.vierButton.Size = new System.Drawing.Size(22, 23);
             this.vierButton.TabIndex = 3;
@@ -91,7 +92,7 @@
             // 
             // fuenfButton
             // 
-            this.fuenfButton.Location = new System.Drawing.Point(70, 114);
+            this.fuenfButton.Location = new System.Drawing.Point(40, 102);
             this.fuenfButton.Name = "fuenfButton";
             this.fuenfButton.Size = new System.Drawing.Size(22, 23);
             this.fuenfButton.TabIndex = 4;
@@ -101,7 +102,7 @@
             // 
             // sechsButton
             // 
-            this.sechsButton.Location = new System.Drawing.Point(98, 114);
+            this.sechsButton.Location = new System.Drawing.Point(68, 102);
             this.sechsButton.Name = "sechsButton";
             this.sechsButton.Size = new System.Drawing.Size(22, 23);
             this.sechsButton.TabIndex = 5;
@@ -111,7 +112,7 @@
             // 
             // siebenButton
             // 
-            this.siebenButton.Location = new System.Drawing.Point(42, 143);
+            this.siebenButton.Location = new System.Drawing.Point(12, 131);
             this.siebenButton.Name = "siebenButton";
             this.siebenButton.Size = new System.Drawing.Size(22, 23);
             this.siebenButton.TabIndex = 6;
@@ -121,7 +122,7 @@
             // 
             // achtButton
             // 
-            this.achtButton.Location = new System.Drawing.Point(70, 143);
+            this.achtButton.Location = new System.Drawing.Point(40, 131);
             this.achtButton.Name = "achtButton";
             this.achtButton.Size = new System.Drawing.Size(22, 23);
             this.achtButton.TabIndex = 7;
@@ -131,7 +132,7 @@
             // 
             // neunButton
             // 
-            this.neunButton.Location = new System.Drawing.Point(98, 143);
+            this.neunButton.Location = new System.Drawing.Point(68, 131);
             this.neunButton.Name = "neunButton";
             this.neunButton.Size = new System.Drawing.Size(22, 23);
             this.neunButton.TabIndex = 8;
@@ -141,7 +142,7 @@
             // 
             // nullButton
             // 
-            this.nullButton.Location = new System.Drawing.Point(70, 172);
+            this.nullButton.Location = new System.Drawing.Point(40, 160);
             this.nullButton.Name = "nullButton";
             this.nullButton.Size = new System.Drawing.Size(22, 23);
             this.nullButton.TabIndex = 9;
@@ -150,7 +151,7 @@
             // 
             // kommaButton
             // 
-            this.kommaButton.Location = new System.Drawing.Point(98, 172);
+            this.kommaButton.Location = new System.Drawing.Point(68, 160);
             this.kommaButton.Name = "kommaButton";
             this.kommaButton.Size = new System.Drawing.Size(22, 23);
             this.kommaButton.TabIndex = 10;
@@ -160,7 +161,7 @@
             // negativButton
             // 
             this.negativButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.negativButton.Location = new System.Drawing.Point(42, 172);
+            this.negativButton.Location = new System.Drawing.Point(12, 160);
             this.negativButton.Name = "negativButton";
             this.negativButton.Size = new System.Drawing.Size(22, 23);
             this.negativButton.TabIndex = 11;
@@ -170,7 +171,7 @@
             // 
             // plusButton
             // 
-            this.plusButton.Location = new System.Drawing.Point(126, 85);
+            this.plusButton.Location = new System.Drawing.Point(96, 73);
             this.plusButton.Name = "plusButton";
             this.plusButton.Size = new System.Drawing.Size(22, 23);
             this.plusButton.TabIndex = 12;
@@ -179,7 +180,7 @@
             // 
             // malButton
             // 
-            this.malButton.Location = new System.Drawing.Point(126, 143);
+            this.malButton.Location = new System.Drawing.Point(96, 131);
             this.malButton.Name = "malButton";
             this.malButton.Size = new System.Drawing.Size(22, 23);
             this.malButton.TabIndex = 13;
@@ -188,7 +189,7 @@
             // 
             // minusButton
             // 
-            this.minusButton.Location = new System.Drawing.Point(126, 115);
+            this.minusButton.Location = new System.Drawing.Point(96, 103);
             this.minusButton.Name = "minusButton";
             this.minusButton.Size = new System.Drawing.Size(22, 23);
             this.minusButton.TabIndex = 14;
@@ -197,7 +198,7 @@
             // 
             // geteiltButton
             // 
-            this.geteiltButton.Location = new System.Drawing.Point(126, 172);
+            this.geteiltButton.Location = new System.Drawing.Point(96, 160);
             this.geteiltButton.Name = "geteiltButton";
             this.geteiltButton.Size = new System.Drawing.Size(22, 23);
             this.geteiltButton.TabIndex = 15;
@@ -206,9 +207,9 @@
             // 
             // enterButton
             // 
-            this.enterButton.Location = new System.Drawing.Point(42, 201);
+            this.enterButton.Location = new System.Drawing.Point(12, 189);
             this.enterButton.Name = "enterButton";
-            this.enterButton.Size = new System.Drawing.Size(106, 23);
+            this.enterButton.Size = new System.Drawing.Size(50, 23);
             this.enterButton.TabIndex = 16;
             this.enterButton.Text = "Enter";
             this.enterButton.UseVisualStyleBackColor = true;
@@ -217,7 +218,7 @@
             // 
             this.teilEingabeTextbox.BackColor = System.Drawing.Color.White;
             this.teilEingabeTextbox.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.teilEingabeTextbox.Location = new System.Drawing.Point(42, 50);
+            this.teilEingabeTextbox.Location = new System.Drawing.Point(12, 38);
             this.teilEingabeTextbox.Name = "teilEingabeTextbox";
             this.teilEingabeTextbox.ReadOnly = true;
             this.teilEingabeTextbox.Size = new System.Drawing.Size(106, 20);
@@ -226,17 +227,27 @@
             // gesammteingabeTextbox
             // 
             this.gesammteingabeTextbox.BackColor = System.Drawing.Color.White;
-            this.gesammteingabeTextbox.Location = new System.Drawing.Point(42, 24);
+            this.gesammteingabeTextbox.Location = new System.Drawing.Point(12, 12);
             this.gesammteingabeTextbox.Name = "gesammteingabeTextbox";
             this.gesammteingabeTextbox.ReadOnly = true;
             this.gesammteingabeTextbox.Size = new System.Drawing.Size(106, 20);
             this.gesammteingabeTextbox.TabIndex = 18;
             // 
+            // ButtonZurueck
+            // 
+            this.ButtonZurueck.Location = new System.Drawing.Point(68, 189);
+            this.ButtonZurueck.Name = "ButtonZurueck";
+            this.ButtonZurueck.Size = new System.Drawing.Size(50, 23);
+            this.ButtonZurueck.TabIndex = 19;
+            this.ButtonZurueck.Text = "zurück";
+            this.ButtonZurueck.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(135, 223);
+            this.Controls.Add(this.ButtonZurueck);
             this.Controls.Add(this.gesammteingabeTextbox);
             this.Controls.Add(this.teilEingabeTextbox);
             this.Controls.Add(this.enterButton);
@@ -284,6 +295,7 @@
         private System.Windows.Forms.Button enterButton;
         private System.Windows.Forms.TextBox teilEingabeTextbox;
         private System.Windows.Forms.TextBox gesammteingabeTextbox;
+        private System.Windows.Forms.Button ButtonZurueck;
     }
 }
 
